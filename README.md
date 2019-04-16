@@ -15,8 +15,8 @@ This version works with both master key and application key, and version 2 (look
 This is just a short example, full examples to come on the wiki.
 
 ```php
-use obregonco\B2\Client;
-use obregonco\B2\Bucket;
+use esac\B2\Client;
+use esac\B2\Bucket;
 
 $client = new Client('accountId', [
 	'keyId' => 'your-key-id', // optional if you want to use master key (account Id)
@@ -90,7 +90,7 @@ $fileList = $client->listFiles([
 Installation is via Composer:
 
 ```bash
-$ composer require obregonco/backblaze-b2
+$ composer require esac/backblaze-b2
 ```
 
 ## Tests

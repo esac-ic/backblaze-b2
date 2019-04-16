@@ -1,11 +1,11 @@
 <?php
 
-namespace obregonco\B2;
+namespace esac\B2;
 
-use obregonco\B2\Exceptions\CacheException;
-use obregonco\B2\Exceptions\NotFoundException;
-use obregonco\B2\Exceptions\ValidationException;
-use obregonco\B2\Http\Client as HttpClient;
+use esac\B2\Exceptions\CacheException;
+use esac\B2\Exceptions\NotFoundException;
+use esac\B2\Exceptions\ValidationException;
+use esac\B2\Http\Client as HttpClient;
 use Illuminate\Cache\CacheManager;
 use Illuminate\Container\Container;
 use Illuminate\Filesystem\Filesystem;

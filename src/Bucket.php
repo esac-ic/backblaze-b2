@@ -1,6 +1,6 @@
 <?php
 
-namespace obregonco\B2;
+namespace esac\B2;
 
 class Bucket
 {

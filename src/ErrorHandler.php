@@ -1,14 +1,14 @@
 <?php
 
-namespace obregonco\B2;
+namespace esac\B2;
 
-use obregonco\B2\Exceptions\B2Exception;
-use obregonco\B2\Exceptions\BadJsonException;
-use obregonco\B2\Exceptions\BadValueException;
-use obregonco\B2\Exceptions\BucketAlreadyExistsException;
-use obregonco\B2\Exceptions\BucketNotEmptyException;
-use obregonco\B2\Exceptions\FileNotPresentException;
-use obregonco\B2\Exceptions\NotFoundException;
+use esac\B2\Exceptions\B2Exception;
+use esac\B2\Exceptions\BadJsonException;
+use esac\B2\Exceptions\BadValueException;
+use esac\B2\Exceptions\BucketAlreadyExistsException;
+use esac\B2\Exceptions\BucketNotEmptyException;
+use esac\B2\Exceptions\FileNotPresentException;
+use esac\B2\Exceptions\NotFoundException;
 use GuzzleHttp\Psr7\Response;
 
 class ErrorHandler

@@ -1,8 +1,8 @@
 <?php
 
-namespace obregonco\B2\Http;
+namespace esac\B2\Http;
 
-use obregonco\B2\ErrorHandler;
+use esac\B2\ErrorHandler;
 use GuzzleHttp\Client as GuzzleClient;
 
 /**
